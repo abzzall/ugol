@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\abz\Documents\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\abz\AndroidStudioProjects\CoalGraphApp\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-3541df89661b8cda36784ea1ac8621fb98a74e4f.jar" />
+    </item>
+    <item
+        jar="C:\Users\abz\AndroidStudioProjects\CoalGraphApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\abz\AndroidStudioProjects\CoalGraphApp\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-04f5a5a661af6e2ff04f409d0d58fad7e2c15179.jar" />
+    </item>
+    <item
+        jar="C:\Users\abz\AndroidStudioProjects\CoalGraphApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\abz\AndroidStudioProjects\CoalGraphApp\app\build\intermediates\pre-dexed\debug\classes-ac6b06b203f58b58e634f93c2bc4745eeacabe88.jar" />
+    </item>
+    <item
+        jar="C:\Users\abz\AndroidStudioProjects\CoalGraphApp\app\libs\rebound-0.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c8b90640dddaf1e7ad75d7cb00b09a44b3788f7e">
+        <dex dex="C:\Users\abz\AndroidStudioProjects\CoalGraphApp\app\build\intermediates\pre-dexed\debug\rebound-0.3.8-99422109086018f9e908b134447935e27d382506.jar" />
+    </item>
+    <item
+        jar="C:\Users\abz\AndroidStudioProjects\CoalGraphApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\abz\AndroidStudioProjects\CoalGraphApp\app\build\intermediates\pre-dexed\debug\classes-fdef933026a77796ba5b7bf875f27441e6d13992.jar" />
+    </item>
+
+</items>
