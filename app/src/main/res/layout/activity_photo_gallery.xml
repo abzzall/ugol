@@ -1,0 +1,192 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="apps.shivas.coalgraphapp.PhotosActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/photoGalleryBack"
+        android:src="@drawable/photo_gallery_back"
+        android:scaleType="fitXY"
+        android:focusableInTouchMode="false" />
+
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="76dp"
+        android:id="@+id/photo1Gallery"
+        android:src="@drawable/ph1"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="162dp"
+        android:layout_marginLeft="270dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="157dp"
+        android:layout_height="114dp"
+        android:id="@+id/photo2Gallery"
+        android:src="@drawable/ph2"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="952dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="80dp"
+        android:id="@+id/photo3Gallery"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="121dp"
+        android:layout_marginLeft="1001dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="162dp"
+        android:layout_height="120dp"
+        android:id="@+id/photo4Gallery"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="190dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph4"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="111dp"
+        android:id="@+id/photo5Gallery"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="506dp"
+        android:layout_marginLeft="993dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="83dp"
+        android:id="@+id/photo6Gallery"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="153dp"
+        android:layout_marginLeft="442dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="78dp"
+        android:id="@+id/photo7Gallery"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="621dp"
+        android:layout_marginLeft="442dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="54dp"
+        android:layout_height="96dp"
+        android:id="@+id/photo8Gallery"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="163dp"
+        android:layout_marginLeft="907dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="105dp"
+        android:id="@+id/photo9Gallery"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="142dp"
+        android:layout_marginLeft="660dp"
+        android:onClick="clickOnPhotoInGallery" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="84dp"
+        android:id="@+id/photo10Gallery"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="562dp"
+        android:layout_marginLeft="195dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="104dp"
+        android:layout_height="72dp"
+        android:id="@+id/photo11Gallery"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="604dp"
+        android:layout_marginLeft="292dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="105dp"
+        android:id="@+id/photo12Gallery"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph12"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="604dp"
+        android:layout_marginLeft="904dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="53dp"
+        android:id="@+id/photo13Gallery"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="291dp"
+        android:layout_marginLeft="902dp"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="134dp"
+        android:layout_height="113dp"
+        android:id="@+id/photo14Gallery"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="409dp"
+        android:layout_marginLeft="232dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ph14"
+        android:onClick="clickOnPhotoInGallery"/>
+
+    <ImageView
+        android:layout_width="450dp"
+        android:layout_height="335dp"
+        android:id="@+id/mainImageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="266dp"
+        android:layout_marginLeft="420dp"
+        android:scaleType="fitXY" />
+</RelativeLayout>

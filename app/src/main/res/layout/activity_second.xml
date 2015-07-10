@@ -1,0 +1,305 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/backImage"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="139dp"
+        android:layout_height="85dp"
+        android:id="@+id/bookImage"
+        android:src="@drawable/book"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="186dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+/>
+
+    <ImageView
+        android:layout_width="137dp"
+        android:layout_height="69dp"
+        android:id="@+id/shipImage"
+        android:scaleType="fitXY"
+        android:src="@drawable/sheep"
+        android:layout_marginLeft="383dp"
+        android:layout_marginTop="189dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="131dp"
+        android:layout_height="120dp"
+        android:id="@+id/directorImage"
+        android:scaleType="fitXY"
+        android:src="@drawable/director"
+        android:layout_marginLeft="369dp"
+        android:layout_marginTop="413dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="189dp"
+        android:id="@+id/turnImage"
+        android:scaleType="fitXY"
+        android:src="@drawable/ochered"
+        android:layout_marginLeft="653dp"
+        android:layout_marginTop="338dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="clickOnTerminalButton1" />
+
+    <ImageView
+        android:layout_width="124dp"
+        android:layout_height="88dp"
+        android:id="@+id/albumImage"
+        android:src="@drawable/album"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="875dp"
+        android:layout_marginTop="342dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="clickOnAlbumButton"/>
+
+    <ImageView
+        android:layout_width="69dp"
+        android:layout_height="79dp"
+        android:id="@+id/workingImage"
+        android:src="@drawable/working"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="1146dp"
+        android:layout_marginTop="297dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="131dp"
+        android:layout_height="109dp"
+        android:id="@+id/mechImage"
+        android:src="@drawable/mehanism"
+        android:layout_marginLeft="881dp"
+        android:layout_marginTop="495dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:id="@+id/photo1Image"
+        android:scaleType="fitXY"
+        android:src="@drawable/photo"
+        android:layout_marginLeft="1112dp"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:id="@+id/photo2Image"
+        android:scaleType="fitXY"
+        android:src="@drawable/photo"
+        android:layout_marginLeft="1157dp"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+
+    <ImageView
+        android:layout_width="41dp"
+        android:layout_height="45dp"
+        android:id="@+id/photo3Image"
+        android:scaleType="fitXY"
+        android:src="@drawable/photo"
+        android:layout_marginLeft="1202dp"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+
+    <ImageView
+        android:layout_width="93dp"
+        android:layout_height="91dp"
+        android:id="@+id/handsImage"
+        android:src="@drawable/hands"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="1135dp"
+        android:layout_marginTop="449dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="88dp"
+        android:layout_height="72dp"
+        android:id="@+id/peopleImage"
+        android:src="@drawable/peaple"
+        android:layout_marginLeft="1146dp"
+        android:layout_marginTop="570dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/bookText"
+        android:text="Древняя история"
+        android:textColor="#fffefffd"
+        android:layout_below="@+id/bookImage"
+        android:layout_alignRight="@+id/bookImage"
+        android:textSize="13dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="145dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&quot;АМУР&quot; проект 92-040"
+        android:id="@+id/shipText"
+        android:layout_below="@+id/shipImage"
+        android:layout_alignLeft="@+id/shipImage"
+        android:textColor="#ffffffff"
+        android:textSize="12dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="7dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Директора"
+        android:id="@+id/directorText"
+        android:textSize="12dp"
+        android:textColor="#ffffffff"
+        android:layout_below="@+id/directorImage"
+        android:layout_alignRight="@+id/directorImage"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="7dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Введение в строй Терминала"
+        android:id="@+id/terminalText"
+        android:textColor="#ffffffff"
+        android:textSize="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/turnImage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="327dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Современное состояние терминала"
+        android:id="@+id/album1Text"
+        android:layout_below="@+id/albumImage"
+        android:layout_toRightOf="@+id/turnImage"
+        android:textSize="11dp"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Перспективы развития"
+        android:id="@+id/album2Text"
+        android:textColor="#ffffffff"
+        android:textSize="10dp"
+        android:layout_below="@+id/album1Text"
+        android:layout_alignLeft="@+id/album1Text"
+        android:layout_marginLeft="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Схема передвижения угля"
+        android:id="@+id/mechText"
+        android:layout_below="@+id/mechImage"
+        android:layout_alignLeft="@+id/mechImage"
+        android:textSize="11dp"
+        android:textColor="#ffffffff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Передовики производства"
+        android:id="@+id/workingText"
+        android:textSize="11dp"
+        android:textColor="#ffffffff"
+        android:layout_below="@id/photo1Image"
+        android:layout_toRightOf="@id/album1Text"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="75dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Международное"
+        android:id="@+id/hands1Text"
+        android:textColor="#ffffffff"
+        android:textSize="11dp"
+        android:layout_below="@+id/handsImage"
+        android:layout_alignLeft="@id/workingText"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="сотрудничество"
+        android:id="@+id/hands2Text"
+        android:textColor="#ffffffff"
+        android:textSize="11dp"
+        android:layout_below="@id/hands1Text"
+        android:layout_alignLeft="@id/hands1Text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Социальная политика"
+        android:id="@+id/people1Text"
+        android:textSize="10dp"
+        android:textColor="#ffffffff"
+        android:layout_below="@+id/peopleImage"
+        android:layout_toRightOf="@id/mechText"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="компании"
+        android:id="@+id/people2Text"
+        android:textColor="#ffffffff"
+        android:textSize="10dp"
+        android:layout_below="@id/people1Text"
+        android:layout_alignLeft="@id/people1Text"
+        android:layout_marginLeft="35dp"/>
+
+</RelativeLayout>
